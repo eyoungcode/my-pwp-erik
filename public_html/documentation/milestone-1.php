@@ -9,9 +9,19 @@ Goal: The goal is to create a professional and easy to use website for Mortgage 
 Persona:
 Name: Judy Smith
 Age: 45
-Professional: She has been a Mortgage Broker for the last 10 years. As summer approaches, she will become busier with brokering new house sales
-and refinancing houses. She is looking to increase the amount of appraisers she has working for her to help increase revenue.
-Technology:
-Behaviors and attitudes:
-Situation:
-Frustration:
+
+Professional: She is a bilingual Mortgage Broker for the last 10 years with Indigo Mortgage.
+
+Technology: Cell phone (uses for both work and personal) - Iphone XS Max, laptop - Apple MacBook Air
+
+Attitudes:
+Very business orientated
+Time = money
+Will work nights and weekends to close a deal
+Doesn't like it when people are slow and/or dishonest with what they are trying to accomplish
+
+Goal: To find a Appraiser with a bachelors degree and is license to work in New Mexico. They also need to be reachable during
+nights and weekends for appraiser status.
+
+Situation:  As summer approaches, she will become busier with brokering new house sales and refinancing houses.
+She is doing a web search looking to increase the amount of appraisers she has working for her to help increase revenue.
