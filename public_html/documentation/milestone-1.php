@@ -12,7 +12,7 @@ Age: 45
 
 Professional: She is a bilingual Mortgage Broker for the last 10 years with Indigo Mortgage.
 
-Technology: Cell phone (uses for both work and personal) - Iphone XS Max, laptop - Apple MacBook Air
+Technology: Cell phone (uses for both work and personal) - Iphone XS Max, laptop - Apple MacBook Air, doesn't use a tablet because she can accomplish her work on her laptop and smartphone.
 
 Attitudes:
 Very business orientated
