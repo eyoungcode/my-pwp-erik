@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
 <p>
 	<strong>Purpose:</strong> This project will be to focus on create a professional website for my friend who is a Real Estate Appraiser.
 </p>
@@ -56,3 +58,4 @@ She is doing a web search looking to increase the amount of appraisers she has w
 		<p>Doesn't like it when people are slow and/or dishonest with what they are trying to accomplish</p>
 	</li>
 </ul>
+</html>
