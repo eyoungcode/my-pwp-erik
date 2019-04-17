@@ -11,7 +11,6 @@
 	The goal is to create a professional and easy to use website for Mortgage Brokers and Real Estate Agents to contact him.
 		The second reason for the website will be to showcase positive testimonials from prior clients to help generate new clients.
 	</p>
-
 <p>
 	<ul>
 	<li>
