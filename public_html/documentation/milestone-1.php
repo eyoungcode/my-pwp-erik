@@ -25,7 +25,10 @@
 			As summer approaches, she will become busier with brokering new house sales and refinancing houses.
 			She is doing a web search looking to increase the amount of appraisers so can increase revenue.
 		</p>
-
+<p>
+	<strong>User Story</strong>
+	As a new user, I want to make a request to work with this Real Estate Appraiser and refer other brokers to his website.
+</p>
 		<p>
 			<strong>Name</strong>
 			Judy Smith
