@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Milestone-2></title>
+</head>
+<body>
 <p>
 	<strong>Welcome:</strong>This will identify my friend by name and why they should do business with him.
 </p>
@@ -5,8 +12,15 @@
 	<strong>About Me:</strong>This section will include his work history and licenses.
 </p>
 <p>
-	<strong>Testimonial:</strong> Positive feedback from his clients 3 - 5 total testimonials.
+	<strong>Testimonial:</strong> Positive feedback from his clients 2 - 4 total testimonials.
 </p>
 <p>
-	<strong>Contact info:</strong> This section will include my friends professional email address, I will help him create his Linkedin profile and add the link to his page.
+	<strong>FAQ's</strong> This will provide some of the most common questions he gets and is responses to those questions.
 </p>
+
+<p>
+	<strong>Contact info:</strong> This section will include form to fill-out someones name, email address, phone number, and a message box. He will also have a link to his wives webpage and a LinkedIn link at the bottom of this page.
+</p>
+<img src="images/Wireframe.png" alt="wireFrame" style=":width: 1000px; height:1000px"/>
+</body>
+</html>

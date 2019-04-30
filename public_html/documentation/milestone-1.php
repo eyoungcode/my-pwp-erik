@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+	<title>Milestone-1</title>
 	<meta charset="UTF-8">
+	</head>
+	<body>
 	<p>
 		<strong>Purpose:</strong> This project will be to focus on create a professional website for my friend who is a Real Estate Appraiser.
 	</p>
@@ -60,4 +64,5 @@
 			<li>Doesn't like it when people are slow and/or dishonest with what they are trying to accomplish</li>
 
 	</ul>
+	</body>
 </html>
