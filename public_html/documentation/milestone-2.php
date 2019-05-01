@@ -6,9 +6,6 @@
 </head>
 <body>
 <p>
-	<strong>Welcome:</strong>This will identify my friend by name and why they should do business with him.
-</p>
-<p>
 	<strong>About Me:</strong>This section will include his work history and licenses.
 </p>
 <p>
