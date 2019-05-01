@@ -19,7 +19,7 @@
 </p>
 
 <p>
-	<strong>Contact info:</strong> This section will include form to fill-out someones name, email address, phone number, and a message box. He will also have a link to his wives webpage and a LinkedIn link at the bottom of this page.
+	<strong>Contact info:</strong> This section will include form to fill-out name, email address, phone number, and a message box. He will also have a link to his wives webpage and a LinkedIn at the bottom of this page.
 </p>
 <img src="images/Wireframe.png" alt="wireFrame" style=":width: 1000px; height:1000px"/>
 </body>
