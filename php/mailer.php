@@ -8,12 +8,12 @@
  * @author Rochelle Lewis <rlewis37@cnm.edu>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
+require_once("vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
 use \SendGrid\Mail;
-$sendgrid = new \SendGrid($sendGridSecret);
+$sendgrid = new \SendGrid($smtpSecret);
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
@@ -32,7 +32,7 @@ try {
 	$subject = filter_input(INPUT_POST, "copy", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "pasta", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create SendGrid object
-	$emailObject = new Mail();
+	$emailObject = new \SendGrid\Mail\Mail();
 	/**
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
@@ -57,5 +57,6 @@ try {
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(\Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\">Incomplete email address</div>";
+} catch(\Exception $exception) {
 }

@@ -13,12 +13,12 @@
  **/
 
 //the SendGrid SMTP authorization
-$smtpUser = '-- apikey --';
-$smtpSecret = '-- SG.e5PfJhs7TLGDU8sFefJjkA.ZgcA99EI-Jx0pQOCfK20bre4irswWtTxDQUQdJppLlM--';
+$smtpUser = 'apikey';
+$smtpSecret = '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';
 
 // your Google reCAPTCHA keys here
-$siteKey = '-- 6Lc58aMUAAAAADxyE1eeHpF5sQ8ooieRXHraTYoC --';
-$secret = '-- 6Lc58aMUAAAAANBsQNzTMdOlCNYN50YTZPArWITD --';
+$siteKey = '6Lc58aMUAAAAADxyE1eeHpF5sQ8ooieRXHraTYoC';
+$secret = '6Lc58aMUAAAAANBsQNzTMdOlCNYN50YTZPArWITD';
 
 /**
  * attach the recipients to the message
