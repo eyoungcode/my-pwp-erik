@@ -8,7 +8,7 @@
  * @author Rochelle Lewis <rlewis37@cnm.edu>
  **/
 // require all composer dependencies
-require_once("vendor/autoload.php");
+require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
@@ -58,5 +58,4 @@ try {
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(\Exception $exception) {
 	echo "<div class=\"alert alert-danger\" role=\"alert\">Incomplete email address</div>";
-} catch(\Exception $exception) {
 }
