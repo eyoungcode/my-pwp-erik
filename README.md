@@ -20,9 +20,3 @@ You've got a stray `>` sign in your page title.
 
 Your milestone 2a passes at a Tier III with early submission.
 
-## Milestone 2b Feedback
-
-In addition to the short conversation at check-in here is more 2b Feedback.
-The project is coming together. More content would have been nice see in development as it would have supplied the means for a better look at your layout. Nonetheless, you should now have all the tools to finish your project all the way to the end. If you have any more questions please feel free to ask the bridge for more insight.
-
-Your milestone 2b passes at Tier II
