@@ -15,11 +15,11 @@ nav {
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 55px;
+	font-size: 60px;
 }
 .centered2 {
 	position: absolute;
-	top: 26%;
+	top: 27%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 30px;
