@@ -7,12 +7,33 @@ nav {
 
 
 .container1 {
-	background-color: lightblue;
-	padding: 8rem;
+	background-image: url("http://freeabqimages.com/photo/?id=365");
+	text-align: center;
+	color: white;
+}
+.centered {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 55px;
+}
+.centered2 {
+	position: absolute;
+	top: 26%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.img1 {
+	float: left;
+	margin-right: 2rem;
 }
 
 ul#services li {
-	color: darkblue;
+	color: beige;
+	background-color: dodgerblue;
 	font-size:20px;
 	padding:10px;
 	text-transform: uppercase;
