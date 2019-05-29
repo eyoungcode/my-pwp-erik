@@ -28,6 +28,8 @@ nav {
 .img1 {
 	float: left;
 	margin-right: 2rem;
+	padding-bottom: 30px;
+
 }
 section#my-list {
 	background-color: dodgerblue;
@@ -35,12 +37,14 @@ section#my-list {
 }
 ul#services li {
 	color: beige;
-	font-size:20px;
-	padding:10px;
+	font-size: 20px;
+	padding: 7px;
 	text-transform: uppercase;
-	justify-content:space-between;
+	justify-content: space-between;
 	width: 50%;
 }
+
+
 h4 {
 	text-align: center;
 }
