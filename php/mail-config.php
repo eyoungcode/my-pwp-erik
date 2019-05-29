@@ -7,7 +7,7 @@
  * @param string $secret your secret reCAPTCHA API key
  * @param array $MAIL_RECIPIENTS array of email addresses and corresponding recipient names to send form responses to
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Erik Young <youngblkraven@gmail.com>
  *
  * This file contains sensitive information and should ALWAYS be gitignored!
  **/

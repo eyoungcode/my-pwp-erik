@@ -348,7 +348,7 @@
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 					integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
 					crossorigin="anonymous">
-			<form id="contact-form" method="post" action="php/mailer.php">
+			<form id="contact-form" method="post" action="../php/mailer.php">
 				<div class="form-group">
 					<label for="name">Name</label>
 					<div class="input-group">
@@ -358,7 +358,24 @@
 						<input class="form-control" type="text" name="name" id="name" placeholder="Your name">
 					</div>
 				</div>
-
+					<div class="form-group">
+					<label for="Address">Address</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="fa fa-address"></i></span>
+							</div>
+					<input class="form-control" type="text" name="Address" id="Address" placeholder="Your address">
+				</div>
+					</div>
+					<div class="form-group">
+						<label for="City">City</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="fa fa-city"></i></span>
+							</div>
+							<input class="form-control" type="text" name="City" id="City" placeholder="Your city">
+					</div>
+					</div>
 				<div class="form-group">
 					<label for="email">Email</label>
 					<div class="input-group">
@@ -375,8 +392,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fa fa-phone"></i></span>
 						</div>
-						<input class="form-control" type="text" name="phone number" id="phone number"
-								 placeholder="phone number">
+						<input class="form-control" type="text" name="phone number" id="phone number" placeholder="phone number">
 					</div>
 				</div>
 
@@ -396,7 +412,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fa fa-comment"></i></span>
 						</div>
-						<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage"
+						<textarea class="form-control" rows="5" id="Message" name="Message"
 									 placeholder="(2000 characters max)"></textarea>
 					</div>
 				</div>
@@ -407,6 +423,5 @@
 				<button class="btn btn-primary" type="reset">Reset</button>
 			</form>
 		</div>
-
 	</body>
 </html>

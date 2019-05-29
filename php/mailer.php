@@ -5,10 +5,10 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Erik Young <youngblkraven@gmail.com>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 2) . "vendor/autoload.php");
+require_once(dirname(__DIR__,2) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
