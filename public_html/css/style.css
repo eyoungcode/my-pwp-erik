@@ -29,19 +29,21 @@ nav {
 	float: left;
 	margin-right: 2rem;
 }
+section#my-list {
+	background-color: dodgerblue;
 
+}
 ul#services li {
 	color: beige;
-	background-color: dodgerblue;
 	font-size:20px;
 	padding:10px;
 	text-transform: uppercase;
-	list-style-type: none;
 	justify-content:space-between;
-	float: left;
 	width: 50%;
 }
-
+h4 {
+	text-align: center;
+}
 
 .Contact101 {
 	text-align: center;
