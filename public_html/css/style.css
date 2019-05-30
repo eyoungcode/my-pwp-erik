@@ -44,10 +44,15 @@ ul#services li {
 	width: 50%;
 }
 
+
 h4 {
 	text-align: center;
+	font-size: 30px;
 }
 
+h5 {
+	font-size: 30px;
+}
 .Contact101 {
 	text-align: center;
 }
@@ -55,5 +60,4 @@ h4 {
 .form-it-up {
 	background-color: black;
 	color: dodgerblue;
-	font-size: 15px;
 }
