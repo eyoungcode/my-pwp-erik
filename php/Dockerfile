@@ -16,8 +16,8 @@ RUN composer install \
 FROM gkephart/alpine-php-apache
 
 # copy vendor into the project from the prebuild stage
-COPY --from=vendor /app/vendor/ /app/vendor
+COPY --from=vendor /app/vendor/ /app/public/vendor
 
-COPY . /app/public/php
+COPY . /app/public
 
 EXPOSE 80
