@@ -20,7 +20,7 @@ You've got a stray `>` sign in your page title.
 
 Your milestone 2a passes at a Tier III with early submission.
 
-## Milestone 4 Feedback
+## Milestone 3 Feedback
 
 * Nice color scheme and overall design.  You're using a less-is-more look to good effect here.  The banner image at the top is both simple and effective.
 * With that being stipulated, your sections could use a little bit more padding or margins.  Some of your title text or ending is jammed right up against the border of the section, and it's a little jarring.
@@ -42,6 +42,6 @@ Your responsive implementation is really rough.  It's the biggest thing that's w
 
 Your git history is good but not great.  Your commit messages shouldn't repeat, and some of your comits are on the high side with how many lines of code that a git commit should have.  That said, your code is pretty clean, and aside from the comments, is well-formatted and easy-to-read.  Attention to details like that will serve you well in development.  Nice work.
 
-*Your overall grade for Milestone 3 is Tier II.*
+**Your overall grade for Milestone 3 is Tier II.**
 
 
