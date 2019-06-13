@@ -1,53 +1,16 @@
-.mobile-container {
-	max-width: 480px;
-	margin: auto;
-	background-color: #555;
-	height: 500px;
-	color: white;
-	border-radius: 10px;
-}
+nav {
 
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-	position: relative;
-}
+	background-color: black;
 
-.topnav #myLinks {
-	display: none;
+	border-color: #425766;
 }
-
-.topnav a {
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-}
-
-.topnav a.icon {
-	background: black;
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-.active {
-	background-color: #4CAF50;
-	color: white;
-}
-
 body, html {
+	position: absolute;
 	height: 100%;
+	width: 100%;
 }
 .container1 {
-	background-image: url("http://freeabqimages.com/photo/?id=365");
+	background: url("https://freeabqimages.com/photo/?id=365");
 	text-align: center;
 	color: white;
 }
