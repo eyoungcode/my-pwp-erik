@@ -1,6 +1,8 @@
 {
   "require": {
     "google/recaptcha": "~1.1",
-    "sendgrid/sendgrid":"@stable"
+    "mailgun/mailgun-php": "@stable",
+    "kriswallsmith/buzz": "@stable",
+    "nyholm/psr7": "@stable"
   }
 }
