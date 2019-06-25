@@ -1,9 +1,4 @@
-nav {
 
-	background-color: black;
-
-	border-color: #425766;
-}
 body, html {
 	position: absolute;
 	height: 100%;
@@ -48,10 +43,8 @@ section#my-list {
 .services li {
 	color: beige;
 	font-size: 20px;
-	padding: 7px;
+	padding: 2px;
 	text-transform: uppercase;
-	justify-content: space-between;
-
 }
 
 
