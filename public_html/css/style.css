@@ -9,9 +9,21 @@ body, html {
 	height: 100%;
 	width: 100%;
 }
-.container1 {
-	background: url("http://freeabqimages.com/photo/?id=365");
-	text-align: center;
+
+.what {
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: white;
+}
+.centered2 {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
 	color: white;
 }
 .centered {
@@ -21,13 +33,7 @@ body, html {
 	transform: translate(-50%, -50%);
 	font-size: 60px;
 }
-.centered2 {
-	position: absolute;
-	top: 27%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 30px;
-}
+
 
 .img1 {
 	float: left;
