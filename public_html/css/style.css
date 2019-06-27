@@ -1,5 +1,17 @@
+@media screen and (max-width: 1020px) {
+	/* Large Desktop */
+}
 
-.img-title{
+@media screen and (max-width: 780px) {
+	/* tablet */
+}
+
+@media screen and (max-width: 480px) {
+	/* mobile */
+}
+
+
+.img-title {
 	position: absolute;
 	color: #fff;
 	text-align: center;
@@ -8,26 +20,30 @@
 	top: 13%;
 	letter-spacing: 3px;
 }
+
+
 .certify {
 	position: relative;
 	color: black;
 	text-align: center;
 	left: 0;
 	right: 0;
-	top: 8%;
+	top: 5%;
+	bottom: 5%;
 	letter-spacing: 3px;
 }
 
+
 .img1 {
 	float: left;
-	margin-right: 2rem;
-
-
 }
+
+
 section#my-list {
 	background-color: dodgerblue;
 
 }
+
 .services li {
 	color: beige;
 	font-size: 20px;
@@ -44,6 +60,7 @@ h4 {
 h5 {
 	font-size: 30px;
 }
+
 .Contact101 {
 	text-align: center;
 }
