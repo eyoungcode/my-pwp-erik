@@ -1,34 +1,22 @@
 
-body, html {
+.img-title{
 	position: absolute;
-	height: 100%;
-	width: 100%;
+	color: #fff;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 13%;
+	letter-spacing: 3px;
 }
-
-.what {
-	position: absolute;
-	top: 18%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 50px;
-	color: white;
+.certify {
+	position: relative;
+	color: black;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 8%;
+	letter-spacing: 3px;
 }
-.centered2 {
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 30px;
-	color: white;
-}
-.centered {
-	position: absolute;
-	top: 20%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 60px;
-}
-
 
 .img1 {
 	float: left;
