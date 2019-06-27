@@ -36,7 +36,11 @@ try {
 	 **/
 
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$address = filter_input(INPUT_POST, "address", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$city = filter_input(INPUT_POST, "city", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$zip_code = filter_input(INPUT_POST, "zip_code", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+	$phone_number = filter_input(INPUT_POST, "phone_number", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
@@ -50,6 +54,10 @@ try {
 		'from'    => $email,
 		'to'      => $MAIL_RECIPIENTS["email"],
 		'subject' => "$name: $subject",
+		'address' => "$address",
+		'city' => "$city",
+		'zip_code' => "$zip_code",
+		'phone_number' => "$phone_number",
 		'text'    => $message
 	]);
 
